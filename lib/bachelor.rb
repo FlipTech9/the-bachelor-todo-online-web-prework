@@ -77,4 +77,11 @@ end
 
 def get_average_age_for_season(data, season)
   # code here
+  
+  #collect and average ages 
+  
+  total_age = 0 
+  
+  number_of_contestants = 0 
+  
 end
