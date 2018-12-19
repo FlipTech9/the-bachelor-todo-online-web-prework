@@ -66,6 +66,11 @@ def get_occupation(data, hometown)
     contestants.each do |contestants|
       
       #check hometown 
+      if contestants["hometown"] == hometown
+        
+        #retrun occupation
+        return contestants['occupation']
+      end 
     end 
   end 
 end
