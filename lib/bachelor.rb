@@ -86,6 +86,16 @@ def get_average_age_for_season(data, season)
   
   #go through seasons 
   data.each do |season, contestants|
+    
+    #convert age key to Integer
+    total_age += (contestants["age"]).to_i 
+    
+    #increment contestants
+    number_of_contestants += 1 
+  end 
+  
+  #return average age
+  (total_age / number_of_contestants.to_i)
   
   end 
   
