@@ -62,6 +62,11 @@ def get_occupation(data, hometown)
   #go through seasons
   data.each do |season, contestants|
     
+    #go through contestants
+    contestants.each do |contestants|
+      
+      #check hometown 
+    end 
   end 
 end
 
